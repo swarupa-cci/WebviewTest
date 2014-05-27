@@ -24,6 +24,7 @@ import android.widget.Toast;
 public class MainActivity extends Activity {
 	private ProgressDialog progressBar; 
 	private String test;
+	String test2;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
