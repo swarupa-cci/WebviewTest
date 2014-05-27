@@ -35,7 +35,7 @@ public class MainActivity extends Activity {
 	      
 	        webview.setScrollBarStyle(WebView.SCROLLBARS_OUTSIDE_OVERLAY);
 
-	     /*   final AlertDialog alertDialog = new AlertDialog.Builder(this).create();
+	        final AlertDialog alertDialog = new AlertDialog.Builder(this).create();
 
 	        progressBar = ProgressDialog.show(this, "WebView Example", "Loading...");
 
@@ -58,7 +58,7 @@ public class MainActivity extends Activity {
 	                Toast.makeText(MainActivity.this, "Oh no! " + description, Toast.LENGTH_SHORT).show();
 	               
 	            }
-	        });*/
+	        });
 	        
 	        webview.setWebViewClient(new MyWebViewClient());
 	        webview.loadUrl("http://boulevardia.com/explore/taps-tastes/?app");
